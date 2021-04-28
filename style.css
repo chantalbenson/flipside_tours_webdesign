@@ -1,0 +1,53 @@
+body{
+font-size:16px;
+font-family: proxima-nova, sans-serif;
+font-style: normal;
+font-weight: 100;
+}
+
+.navbar{
+    font-size:0.875em;
+}
+
+a {
+    color: black;
+}  
+
+a:hover{
+    color: #ed7d1e;
+}
+
+.herobg{ 
+    background: url("images/header-bg.jpg");
+}
+
+.headerbg{
+background:#e5f0ef; 
+}
+
+
+h1{
+font-family: niveau-grotesk, sans-serif;
+font-size: 6.1em;
+font-weight:800;
+line-height: 75%;
+margin-top: 140px;
+text-align: right;
+padding-bottom:10%;
+}
+
+.aboutusbg{
+background:#edf4e7;
+margin-bottom: 50px;
+margin-left: 30px;
+margin-right: 30px;
+}
+
+footer{
+    background: url(images/footer-bg.jpg) center center;
+    background-size: cover;
+    height: 360px;
+}
+.footer-content{
+    color:white;
+}
