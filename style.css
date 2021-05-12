@@ -5,16 +5,32 @@ font-style: normal;
 font-weight: 100;
 }
 
+
 .navbar{
     font-size:0.875em;
 }
 
-a {
+.navbarbg{
+ background-color: #ffffff;  
+}
+
+.navbar-nav>li>a {
     color: black;
-}  
+}
+
+.navbar-inverse{
+background-color: transparent;
+border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #ffffff;
+    background-color: #e5f0ef !important;
+}
+
 
 a:hover{
-color: #eafaff;
+color: #cbe2e0 !important;
 }
 
 .herobg{ 
@@ -25,10 +41,63 @@ color: #eafaff;
 background:#e5f0ef;
 }
 
-.testimoniessection{
+
+.btn{
+margin-top:2%;
+}
+
+.btn-default{
+font-family: Raleway-SemiBold;
+font-size: 13px;
+color: #000000;
+letter-spacing: 1px;
+line-height: 15px;
+border: 3px solid #cbe2e0;
+border-radius: 40px;
+background: transparent;
+transition: all 0.3s ease 0s;
+}
+
+.btn-default:hover {
+  color: #ffffff;
+  background: #cbe2e0;
+  border: 3px solid #cbe2e0;
+}
+
+.befriendstext{
+color:#ffffff;
+}
+
+.testimoniescontainer{
 padding-top: 10%;
-padding-bottom: 10%;
-  
+padding-bottom: 15%;
+}
+
+.btn-testimonies{
+font-family: Raleway-SemiBold;
+font-size: 13px;
+color: #000000;
+letter-spacing: 1px;
+line-height: 15px;
+border: 3px solid #cbe2e0;
+border-radius: 40px;
+background: transparent;
+transition: all 0.3s ease 0s; 
+margin-left: 35%;
+}
+
+.btn-testimonies:hover {
+  color: #ffffff;
+  background: #cbe2e0;
+  border: 3px solid #cbe2e0;
+}
+
+.testimoniesgraphic{
+padding-top: 20%;
+}
+
+.testimonyprofilecontainer {
+margin-top: 15%;
 }
 
 .testimony{
@@ -42,7 +111,7 @@ padding-bottom: 10px;
 
 .speechmarks{
 text-align: center;
-margin-bottom: -25%;
+margin-bottom: -20%;
 margin-left: auto;
 margin-right: auto;
 }
@@ -53,8 +122,29 @@ margin: auto;
 
 
 .explorebg{
-background: url("images/explorebg.png") no-repeat center center;
-background-size: contain;
+background: url("images/tester.png") no-repeat center;
+background-size:contain;
+   
+}
+
+.btn-explore{
+font-family: Raleway-SemiBold;
+font-size: 13px;
+color: #000000;
+letter-spacing: 1px;
+line-height: 15px;
+border: 3px solid #ffffff;
+border-radius: 40px;
+background: transparent;
+transition: all 0.3s ease 0s; 
+margin-top: 5%;
+margin-left:35%;
+}
+
+.btn-explore:hover {
+  color: #000000;
+  background: #ffffff;
+  border: 3px solid #ffffff;
 }
 
 .image-stack {
@@ -64,18 +154,75 @@ background-size: contain;
 }
 
 .image-stack__item--bottom {
-  grid-column: 4 / -1;
-  grid-row: 1;
+grid-column: 4 / -1;
+grid-row: 1;
+padding-top:10%;
 }
 
 .image-stack__item--top {
   grid-row: 1;
   grid-column: 1 / span 8;
-  padding-top: 20%;
-  z-index: 1;
+    padding-top: 70%;
+    z-index: 1;
 }
 
-h1{
+.image-stack__item--topright {
+    grid-row: 1;
+    grid-column: 1 / span 12;
+    padding-top: 65%;
+    padding-left: 60%;
+    z-index: 1;
+}
+
+.fallinlovewithoutcity{
+padding-top: 10%;
+padding-bottom: 10%;
+}
+
+.btn-fallinlovewithourcity {
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+    color: #000000;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 3px solid #cbe2e0;
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.btn-fallinlovewithourcity:hover {
+  color: #ffffff;
+  background: #cbe2e0;
+  border: 3px solid #cbe2e0;
+}
+
+
+.missiontextcolour{
+color:#fdb486 !important;
+}
+
+.goaltextcolour{
+color:#fdb486 !important;
+}
+
+.goalstextpadding {
+margin-left: 25px; 
+padding-top:2%;
+}
+
+.missionsandgoals{
+margin:auto;
+padding-top:10%;
+}
+
+.missioncontainer{
+padding-left:5%;
+}
+
+.Flipsideheaderh1{
 font-family: niveau-grotesk, sans-serif;
 font-size: 6.1em;
 font-weight:800;
@@ -85,33 +232,58 @@ text-align: right;
 padding-bottom:10%;
 }
 
-h2{
+.authenticconnectionsh2{
 font-family: niveau-grotesk, sans-serif;
 font-size:2.1em;
 font-weight:800;
 padding-bottom:20px;
 }
 
-h3{
-font-family: niveau-grotesk, sans-serif;
-font-size:1.8em;
-font-weight:800;
-padding-bottom:10%;
-color:#385848;
+.genuinerelationshipsh2{
+    font-family: niveau-grotesk, sans-serif;
+    font-size: 2.1em;
+    font-weight: 800;
+    margin-top: -5%;
+    margin-left: 5%;
 }
 
-h4{
+.exploretoursh2{
+font-family: niveau-grotesk, sans-serif;
+font-size: 2.1em;
+font-weight: 800;
+padding-bottom: 2%;
+padding-top: 23%;
+}
+
+.distinctivetoursh2{
+font-family: niveau-grotesk, sans-serif;
+font-size: 2.1em;
+font-weight: 800;
+margin-top: -3%;
+margin-left: 12%;
+margin-bottom: 5%;
+}
+
+.fallinloveh2{
+font-family: niveau-grotesk, sans-serif;
+font-size:2.1em;
+font-weight:800;
+padding-bottom:2%;
+}
+
+.aboutush2{
+  font-family: niveau-grotesk, sans-serif;
+font-size:2.1em;
+font-weight:800;
+padding-bottom:20px; 
+}
+
+.letsbefriendsh4{
 font-family: niveau-grotesk, sans-serif;
 font-size:1.6em;
 font-weight:800;
 padding-bottom:10%;
 color:white;
-}
-
-.missionsandgoals{
-padding-bottom: 60px;
-margin-top: -60px;
-    margin-left: 40px;
 }
 
 .aboutusbg{
@@ -122,14 +294,26 @@ margin-right: 30px;
 }
 
 .col-xs-6 {
-    width: 50%;
-    padding-bottom: 5%;
+width: 50%;
+padding-bottom: 5%;
+padding-left: 12%;
 }
 
 .aboutusjane{
-padding-bottom: 10px;    
+padding-bottom: 10px;  
+font-family: niveau-grotesk, sans-serif;
+font-size:1.5em;
+font-weight:800;
+color:#385848;
 }
 
+.aboutusruby{
+padding-bottom: 10px;  
+font-family: niveau-grotesk, sans-serif;
+font-size:1.5em;
+font-weight:800;
+color:#385848;
+}
 
 footer{
     background: url(images/footer-bg.jpg) center center;
@@ -138,4 +322,55 @@ footer{
 }
 .footer-content{
     color:white;
+}
+.joinform{
+width: 50%;
+margin: auto;
+}
+
+.btn-footer{
+font-family: Raleway-SemiBold;
+font-size: 13px;
+color: #ffffff;
+letter-spacing: 1px;
+line-height: 15px;
+border: 3px solid #cbe2e0;
+border-radius: 40px;
+background: #cbe2e0;
+transition: all 0.3s ease 0s; 
+margin-top: 5%;
+margin-left:35%;
+}
+
+.btn-footer:hover {
+  color: #ffffff;
+  background: transparent;
+  border: 3px solid #cbe2e0;
+}
+
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {
+    z-index: 2;
+    margin-left: 10px;
+}
+
+.navbar-footer{
+    margin-top: 12%;
+}
+
+@media only screen and (max-width: 600px) { /*mobile device break*/
+    
+ .explorebg {
+    background: url(images/explorebg.png) no-repeat center;
+        }
+     
+body{
+font-size:12px;
+font-family: proxima-nova, sans-serif;
+font-style: normal;
+font-weight: 100;
+}
+
+.btn-fallinlovewithourcity {
+    margin-left: 32%;
+    }
 }
