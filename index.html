@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Flipside Tours</title>
 
     <!-- Bootstrap -->
    <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -23,8 +23,8 @@
     
   <body>
       
-<header class="container fluid">
-<nav class="navbar">
+<header class="container fluid navbarbg">
+    <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -32,13 +32,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"> <img class="img-responsive"  width="110" height="110" alt=“FremantleImagery” src="images/Logo.jpg">    
+      <a class="navbar-brand" href="#"> <img class="img-responsive"  width="110" height="110" alt=“Logo” src="images/Logo.jpg">    
         </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li class="active">
-        <li><a href="#">About Us</a></li>
+         <li><a href="#">About Us</a></li>
         <li><a href="#">Tours</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Bookings</a></li>
@@ -48,18 +48,19 @@
       </ul>
     </div>
   </div>
-</nav>
+    </nav>
    
 <section class="container-fluid">
 <div class="col-md-6">
- <h1> Flipside Tours</h1>
+ <h1 class="Flipsideheaderh1"> Flipside Tours</h1>
 <p> Ready for unforgettable experiences <br> that last a lifetime...</p>
 <p> Start your journey in the heart of Fremantle!</p>
+    <button type="button" class="btn btn-default">Book A Tour Now! </button>
     </div>  
 
     <div class="col-md-6 headerbg">
     <img class="img-responsive" alt=“FremantleImagery” src="images/header-bg.jpg">    
-      <p class="text-right">Let's Be Friends!
+      <p class="text-right befriendstext"><strong> Let's Be Friends! </strong>
      <img src="images/instagramlogo.png"  width="35" alt=“Instagram”>
      <img src="images/googlelogo.png"  width="35" alt=“GooglePlus”>   
      <img src="images/facebooklogo.png" width="20" alt=“Facebook”> 
@@ -72,20 +73,24 @@
 
 <section class="container-fluid"> <!--- container-fluid --->
 
-<div class="container testimoniessection"><!--- authenticconnections container -->
+<div class="container testimoniescontainer"><!--- authenticconnections container -->
 
     <div class="col-md-6">
- <h2> Authentic Connections <br>
-        Build Genuine Relationships</h2>
+ <h2 class="authenticconnectionsh2"> Authentic Connections</h2>
+        <h2 class="genuinerelationshipsh2">Build Genuine Relationships</h2>
         
-    <img class="img-responsive" alt=“Lets_Explore_Fremantle_Together” src="images/explore_together.png" >
+<button type="button" class="btn btn-testimonies">More Testimonies </button>
+        
+    <img class="img-responsive testimoniesgraphic" alt=“LetsExploreFremantleTogether” src="images/explore_together.png" >
    </div> 
     
-    <div class="col-md-6">
-    <img class="img-responsive janeparkinprofile" alt=“Jane_Parkins” src="images/testimony-jp.png" width="150 ">
+    <div class="col-md-6 testimonyprofilecontainer ">
+    <img class="img-responsive janeparkinprofile" alt=“JaneParkins” src="images/testimony-jp.png" width="150 ">
     <p class="testimony"> Jane Parkins</p> 
          <img class="img-responsive speechmarks" alt="speechmarks" src="images/speechmarks.png" width="150 ">   
-    <p class="text-center"> I attended the Ghostly Tours, and the staff were amazing and made the tour a memorable experience. Would recommend FlipSide to anyone looking to experience Fremantle tours in a unique way!</p> 
+    <p class="text-center"> I attended the Ghostly Tours, and the staff were amazing and made the tour a memorable experience. Would recommend FlipSide to anyone looking to experience Fremantle tours in a unique way!</p>
+        <p class="text-center"><strong> 5/5 </strong> </p>
+    
     </div> 
     
     </div> <!--- authenticconnections container -->
@@ -98,20 +103,27 @@
 
     <div class="col-md-6 image-stack">
     <div class="image-stack__item image-stack__item--top">
-      <img class="img-responsive" alt=“Artwork_Fremantle” src="images/exploreimage_2.png" width="300">
+      <img class="img-responsive" alt=“ArtworkFremantle” src="images/exploreimage_2.png" width="300">
     </div>
     <div class="image-stack__item image-stack__item--bottom">
-     <img class="img-responsive" alt=“Fremantle_CafeStrip” src="images/exploreimage_1.png" width="600">
+     <img class="img-responsive" alt=“FremantleCafeStrip” src="images/exploreimage_1.png" width="600">
+    </div>
+    <div class="image-stack__item--topright">
+      <img class="img-responsive" alt=“FremantleTunnel” src="images/exploreimage_3.png" width="600">
     </div>
        </div> 
     
     <div class="col-md-6">
-<h2> Explore Our Fun &amp; Distinctive Tours</h2>
-    
-    </div> 
+        <h2 class="exploretoursh2"> Explore Our Fun &amp; </h2>
+        <h2 class="distinctivetoursh2"> Distinctive Tours</h2>
+        <p class="text-center"> From <strong> Ghostly Tours </strong> acting as real ghost hunters exploring haunted places to <strong> Evening Food Tours </strong> to give you a feel and taste of our city, we have something for everyone!</p>
         
- 
+        <p class="text-center"> Let's bridge the gap between tourists and Fremantle together!</p>
+        <button type="button" class="btn btn-explore">Check Out The Tours!</button>
+        
+    </div> 
     
+ 
     </div> <!---exploretours container -->
 
 
@@ -120,22 +132,24 @@
 <section class="container-fluid"><!--- container fluid Fall in Love With Our City -->
     
 
-<div class="container"> <!--- container -->
+<div class="container fallinlovewithoutcity"> <!--- container -->
 
-<h2> Fall In Love With Our City </h2>
+<h2 class="fallinloveh2"> Fall In Love With Our City </h2>
 
     <div class="row">
     
-<div class="col-md-8">
+<div class="col-md-8 missioncontainer">
 
-    <p> The mission remains the same! <br> Provide safe, fun, and unforgettable experiences through superior customer service that creates memories and smiles that last a lifetime.</p>
+    <p> <strong class="missiontextcolour"> The mission remains the same!</strong> <br> Provide safe, fun, and unforgettable experiences through superior customer service that creates memories and smiles that last a lifetime.</p>
    
-    <p> Our goal is to share the awesome places we've discovered, and make sure you fall in love with our city of Fremantle too! </p>
+    <p class="goalstextpadding"> <strong class="goaltextcolour">Our goal is to share </strong> the awesome places we've discovered, and make sure you fall in love with our city of Fremantle too! </p>
     
 </div>
         
 <div class="col-md-4">
- <img class="missionsandgoals img-responsive" alt=“Jane_Parkins” src="images/goal_mission.png" width="180">
+ <img class="missionsandgoals img-responsive" alt=“MissionandGoals” src="images/goal_mission.png" width="180">
+        <button type="button" class="btn btn-fallinlovewithourcity">Learn More About Us!</button>
+
     
     </div> 
         
@@ -151,7 +165,7 @@
 
 <div class="container">
     <div>
-<h2 class="text-center"> Meet The Funky + Creative Hearts <br>
+<h2 class="text-center aboutush2"> Meet The Funky + Creative Hearts <br>
     Behind Flipside Tours </h2>
 
     <div class="row"> <!--- aboutjane -->
@@ -162,19 +176,19 @@
 <div class="col-md-6 text-left">        
     <h3 class="aboutusjane"> Hi, I'm Jane Bree! 
         <br> Founder + Guide  </h3>
-    <p> I am a songwriter, barrister, and long time-local, with a long family history in Fremantle. I make "bedroom soul" music which you can find on Spotify. I have spent time backpacking through much of the world, including a year living in Madrid, Span, where I dreamt up this walking tour company.</p>
+    <p> I am a songwriter, barrister, and long time-local, with a long family history in Fremantle. I make "bedroom soul" music which you can find on Spotify. I have spent time backpacking through much of the world, including a year living in Madrid, Spain, where I dreamt up this walking tour company.</p>
         </div> 
         
  </div> <!--- aboutjane -->
         
     <div class="row"> <!--- aboutruby -->
 <div class="col-md-6 text-teft">
-<h3>Hey, I'm Ruby! 
+<h3 class="aboutusruby">Hey, I'm Ruby! 
         <br> Ghost Hunter+ Guide  </h3>
-    <p> As a performer with a background in theatre, I am also a memeber of several performance ensembles and have performed in Las Vegas, Melbourne, and beyond. When not on stage, I can be found listening to creepy prodcasts and researching ghost stories.</p>
+    <p> As a performer with a background in theatre, I am also a member of several performance ensembles and have performed in Las Vegas, Melbourne, and beyond. When not on stage, I can be found listening to creepy prodcasts and researching ghost stories.</p>
         </div>
         
-<div class=" col-xs-6">        
+<div class="col-xs-6">        
 <img class="aboutus img-responsive" alt=“Ruby” src="images/aboutus_ruby.png" width="250">   
         </div> 
         
@@ -189,19 +203,49 @@
     
     <div class="container footer-content">
         
-    <h4 class= "text-center"> Let's Be Friends!</h4> 
-    
-    <div class="row"><!--- row -->
-    <div class="col-md-6">
-        <p> © Copyright 2021, Flipside Tours</p>
-        </div>
+    <h4 class= "text-center letsbefriendsh4"> Let's Be Friends!</h4> 
         
-     <div class="col-md-6 text-right">
-        <p> Terms and Conditions</p>
-        </div>
+    
+        <div class="row">
+        <div class="row joinform">
+
+	<div class="input-group">
+         <input type="email" class="form-control" placeholder="Enter your email">
+         <span class="input-group-btn">
+         <button class="btn btn-footer" type="submit">Join!</button>
+         </span>
+          </div>  
+            </div>
+
+        
+        <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-footer">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active">
+         <li><a href="#">About Us</a></li>
+        <li><a href="#">Tours</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Bookings</a></li>
+        <li><a href="#">Get In Touch!</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+    </div>
+  </div>
+    </nav>
         
     </div> <!--- row -->
     </div> <!--- container -->
+ 
       </footer> <!--- footer -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
