@@ -70,7 +70,7 @@ color:#ffffff;
 
 .testimoniescontainer{
 padding-top: 10%;
-padding-bottom: 15%;
+padding-bottom: 10%;
 }
 
 .btn-testimonies{
@@ -240,11 +240,11 @@ padding-bottom:20px;
 }
 
 .genuinerelationshipsh2{
-    font-family: niveau-grotesk, sans-serif;
-    font-size: 2.1em;
-    font-weight: 800;
-    margin-top: -5%;
-    margin-left: 5%;
+font-family: niveau-grotesk, sans-serif;
+font-size: 2.1em;
+font-weight: 800;
+margin-top: -5%;
+margin-left: 5%;
 }
 
 .exploretoursh2{
@@ -276,6 +276,14 @@ padding-bottom:2%;
 font-size:2.1em;
 font-weight:800;
 padding-bottom:20px; 
+}
+
+.aboutusbehindh2{
+font-family: niveau-grotesk, sans-serif;
+font-size: 2.1em;
+font-weight: 800;
+margin-top: -2%;  
+margin-bottom: 5%;
 }
 
 .letsbefriendsh4{
@@ -318,14 +326,16 @@ color:#385848;
 footer{
     background: url(images/footer-bg.jpg) center center;
     background-size: cover;
-    height: 360px;
+    height: 500px;
 }
 .footer-content{
     color:white;
 }
+
 .joinform{
 width: 50%;
 margin: auto;
+padding-top: 2%;
 }
 
 .btn-footer{
@@ -353,9 +363,339 @@ margin-left:35%;
     margin-left: 10px;
 }
 
-.navbar-footer{
-    margin-top: 12%;
+.socialmediafooter {
+margin-top: -9%;
+text-align:center;
+
 }
+.tandcfooter{
+text-align: center;
+margin-top: 8%;
+}
+
+.tanctext{
+color: #000000;
+margin-top: 3%;
+}
+.navbar-footer{
+margin-top: 3%;
+}
+
+ /*About Us.html */
+
+.aboutusheaderh1 {
+font-family: niveau-grotesk, sans-serif;
+font-size: 4.1em;
+font-weight:800;
+line-height: 75%;
+margin-top: 40%;
+text-align: right;
+padding-bottom:10%; 
+color:#f2c9c8;    
+}
+
+.artisticlense {
+margin-left:-20%;
+margin-top: 20%;
+}
+
+.notyourstandardtourbg{
+background: #ebfaff;
+margin-left: 3%;
+margin-right: 3%;
+margin-top: 9%;
+margin-bottom: 9%;
+padding-bottom: 5%;
+}
+
+.notyourstandardtourh2{
+font-family: niveau-grotesk, sans-serif;
+font-size: 2.1em;
+font-weight: 800;
+padding-bottom: 2%;
+}
+
+.notyourstandardtourimage{
+margin:auto;
+margin-bottom: -5%;
+}
+
+.speechmarksjane1{
+margin-left: 12%;
+margin-top: -30%;
+}
+
+.speechmarksjane2{
+margin-left: 75%;
+margin-bottom: -5%;
+}
+
+.notyourstandardtourjanecontainer{
+margin-top: -5%;
+}
+.communitychatscontainer{
+ padding-top:2%;   
+}
+.communitychatsh2{
+font-family: niveau-grotesk, sans-serif;
+font-size: 2.1em;
+font-weight: 800;
+margin-top: -5%;
+padding-bottom: 2%;
+color: #fdb486 !important;
+}
+
+.btn-chats{
+font-family: Raleway-SemiBold;
+font-size: 13px;
+color: #000000;
+letter-spacing: 1px;
+line-height: 15px;
+border: 3px solid #cbe2e0;
+border-radius: 40px;
+background: transparent;
+transition: all 0.3s ease 0s;
+margin-top: 5%;
+}
+
+
+.btn-chats:hover {
+  color: #ffffff;
+  background: #cbe2e0;
+  border: 3px solid #cbe2e0;
+}  
+
+.colpadding{
+margin-top:-8%;
+    
+}
+
+.colpaddingchats{
+padding-top:10%;
+}
+
+.image-stack__item--bottomchats {
+    grid-column: 4 / -1;
+    grid-row: 1;
+padding-top: 20%;}
+
+.image-stack__item--graphic {
+grid-row: 1;
+grid-column: 1 / span 9;
+margin-top: 130%;
+margin-left: 44%;
+z-index: 1;
+}
+
+.image-stack__item--topchats{
+grid-row: 1;
+grid-column: 1 / span 9;
+margin-top: 80%;
+z-index: 1;
+}
+
+.newestmemberbg{
+background: url("images/newestmemberbg.png") no-repeat center;
+background-size:contain;
+padding-top: 10%;   
+}
+
+.newestmembercontainer{
+margin-bottom: 5%;
+}
+
+.joshimage{
+margin: auto;
+margin-top: 2%;
+margin-bottom: -5%;
+}
+.speechmarksjosh1{
+margin-left: 10%;
+margin-top: -30%;
+}
+
+.speechmarksjosh2{
+margin-left: 80%;
+}
+
+.joshquote{
+margin-top: -10%;
+}
+
+.newesttourguideh2{
+font-family: niveau-grotesk, sans-serif;
+font-size: 2.1em;
+font-weight: 800;
+margin-bottom: 5%;
+padding-top:-5%;
+}
+
+.morethanafamilypadding{
+padding-top:2%;
+padding-bottom:5%;
+}
+
+.serviceinfo{
+padding-top:20%;
+margin-left: -3%;
+}
+
+.joinformleftalign{
+width: 60%;
+margin-left: 1%;
+padding-top: 4%;
+}
+
+.btn-join{
+font-family: Raleway-SemiBold;
+font-size: 13px;
+color: #000000;
+letter-spacing: 1px;
+line-height: 15px;
+border: 3px solid #f2c9c8;
+border-radius: 40px;
+background: transparent;
+transition: all 0.3s ease 0s;
+}
+
+.btn-join:hover {
+  color: #ffffff;
+  background: #f2c9c8;
+  border: 3px solid #f2c9c8;
+}
+
+.recieveupdates{
+padding-top:5%;  
+}
+
+.beapartofthefamilyh3{
+font-family: niveau-grotesk, sans-serif;
+font-size: 2.1em;
+font-weight: 800;
+margin-bottom: 5%;
+margin-left:20%;
+color:#f2c9c8;   
+}
+
+.beapartofthefamilybreakh3 {
+font-family: niveau-grotesk, sans-serif;
+font-size: 2.1em;
+font-weight: 800;
+margin-bottom: 5%;
+margin-left: 30%;
+margin-top: -5%;
+color: #f2c9c8;
+}
+
+.morethanaserviceh4{
+font-family: niveau-grotesk, sans-serif;
+font-size:1.8em;
+font-weight:800;
+padding-top:5%;
+padding-bottom:10%;
+color:#f2c9c8;
+}
+
+.image-stack__item--topfamily { 
+grid-row: 1;
+grid-column: 1 / span 8;
+padding-top: 10%;
+z-index: 1;
+padding-left: 10%;
+}
+
+.image-stack__item--bottomfamily {
+grid-column: 4 / -1;
+grid-row: 1;
+margin-top: -30%;
+margin-left: 20%;
+}
+
+.getintouchbg{
+background:#edf4e7;
+margin-left: 3%;
+margin-right: 3%;
+margin-bottom: 5%;
+padding-bottom: 3%;
+}
+
+.contactuscontainer1{
+padding-left: 6%;
+}
+
+.contactuscontainer2{
+padding-right: 18%;
+}
+
+.contacth3{
+font-family: niveau-grotesk, sans-serif;
+font-size: 2em;
+font-weight: 800;
+margin-bottom: 5%;
+padding-top:-5%;
+color:#405f4e;
+}
+
+.janebreecontact{
+margin-top: -4%;
+padding-bottom: 5%;
+}
+
+.phoneicon{
+float: left;
+}
+
+.phonetext{
+margin-top: 2%;    
+}
+
+.emailicon{
+float: left;
+margin-left: 25%;
+}
+
+.emailtext{
+margin-top: 2%;
+margin-right: 5%;
+}
+
+.officeicon{
+float: left;
+margin-top: 4%;
+}
+
+.officetext{
+margin-top: 10%;
+}
+
+.posticon{
+float: left;
+margin-top: 4%;
+margin-left: -15%;
+}
+
+.posttext{
+margin-top: 10%;
+margin-right: -21%;
+}
+
+/*Services.html */
+.timetogetexploringbg {
+background: url("images/tester.png") no-repeat center;
+background-size:contain;     
+}
+
+.servicesh1{
+font-family: niveau-grotesk, sans-serif;
+font-size: 4.1em;
+font-weight: 800;
+line-height: 95%;
+margin-top: 140px;
+text-align: left;
+padding-bottom: 10%;
+margin-right: 10%;}
+
+
 
 @media only screen and (max-width: 600px) { /*mobile device break*/
     
