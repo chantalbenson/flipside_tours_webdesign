@@ -209,7 +209,7 @@ color:#fdb486 !important;
 }
 
 .goalstextpadding {
-margin-left: 25px; 
+margin-left: 2%; 
 padding-top:2%;
 }
 
@@ -236,7 +236,7 @@ padding-bottom:10%;
 font-family: niveau-grotesk, sans-serif;
 font-size:2.1em;
 font-weight:800;
-padding-bottom:20px;
+padding-bottom:3%;
 }
 
 .genuinerelationshipsh2{
@@ -275,7 +275,7 @@ padding-bottom:2%;
   font-family: niveau-grotesk, sans-serif;
 font-size:2.1em;
 font-weight:800;
-padding-bottom:20px; 
+padding-bottom:2%; 
 }
 
 .aboutusbehindh2{
@@ -291,14 +291,14 @@ font-family: niveau-grotesk, sans-serif;
 font-size:1.6em;
 font-weight:800;
 padding-bottom:10%;
-color:white;
+color:#ffffff;
 }
 
 .aboutusbg{
 background:#edf4e7;
-margin-bottom: 50px;
-margin-left: 30px;
-margin-right: 30px;
+margin-bottom: 5%;
+margin-left: 3%;
+margin-right: 3%;
 }
 
 .col-xs-6 {
@@ -308,16 +308,14 @@ padding-left: 12%;
 }
 
 .aboutusjane{
-padding-bottom: 10px;  
-font-family: niveau-grotesk, sans-serif;
+padding-bottom: 2%;  
 font-size:1.5em;
 font-weight:800;
 color:#385848;
 }
 
 .aboutusruby{
-padding-bottom: 10px;  
-font-family: niveau-grotesk, sans-serif;
+padding-bottom: 2%;  
 font-size:1.5em;
 font-weight:800;
 color:#385848;
@@ -373,10 +371,17 @@ text-align: center;
 margin-top: 8%;
 }
 
+.copyright{
+text-align: left;
+color: #000000; 
+margin-top: 4%;
+}
+
 .tanctext{
 color: #000000;
-margin-top: 3%;
+margin-top: 4%;
 }
+
 .navbar-footer{
 margin-top: 3%;
 }
@@ -695,13 +700,289 @@ text-align: left;
 padding-bottom: 10%;
 margin-right: 10%;}
 
+.servicescontainer{
+padding-top:5%;  
+}
+.eveningexperiencetourh2{
+font-family: niveau-grotesk, sans-serif;
+font-size:2.1em;
+font-weight:800;
+padding-bottom:20px;
+color: #fdb486;
+}
+
+.ghostlytoursh2{
+font-family: niveau-grotesk, sans-serif;
+font-size:2.1em;
+font-weight:800;
+padding-bottom:20px;
+color: #000000; 
+margin-top:-3%;
+}
+
+.btn-ghost{
+font-family: Raleway-SemiBold;
+font-size: 13px;
+color: #000000;
+letter-spacing: 1px;
+line-height: 15px;
+border: 3px solid #ffffff;
+border-radius: 40px;
+background: #ffffff;
+transition: all 0.3s ease 0s;
+margin-top:5%;
+margin-left:25%;
+}
+
+.btn-ghost:hover {
+color: #000000;
+background: transparent;
+border: 3px solid #ffffff;   
+}
+
+.ghostoursbg{
+background:#e5f0ef;
+margin-bottom: -5%;
+margin-left: 2%;
+margin-right: 2%;
+margin-top:5%;
+}
+
+.ghosttourdetail{
+margin-top: 10%;
+margin-left: -2%;
+}
+
+.ghosttourcontainer{
+margin-bottom:5%;  
+ 
+}
+.image-stack__item--topghost{
+grid-row: 1;
+grid-column: 1 / span 8;
+margin-top: -30%;
+margin-left: 50%;
+z-index: 1;
+}
+
+.ghostgraphic{
+margin-left: -20%;
+margin-top: -2%;
+margin-bottom: -20%;
+}
+
+.image-stack__item--bottomghost {
+grid-column: 4 / -1;
+grid-row: 1;
+padding-top:10%;
+}
+
+.testimoniescontainer{
+margin-bottom: 5%;
+margin-top:8%;
+}
+
+.heartestimonyh3{
+font-family: niveau-grotesk, sans-serif;
+font-size: 2.4em;
+font-weight: 800;
+color: #000000;
+margin-left: -25%;
+}
+
+.communitytestimonyh3{
+font-family: niveau-grotesk, sans-serif;
+font-size: 2.4em;
+font-weight: 800;
+padding-bottom: 5%;
+margin-top: -1%;
+color: #000000;
+}
+
+.marcustestimony{
+padding-top:2%;
+}
+.marcussmithprofile{
+margin:auto;
+}
+
+.marcuscontainer{
+padding-top:10%;
+}
+.questionscontainer{
+margin-bottom: 15%;  
+padding-top: 5%;
+}
+
+.furtherquestionsh3{
+font-family: niveau-grotesk, sans-serif;
+font-size: 2.4em;
+font-weight: 800;
+margin-top: -1%;
+color: #000000;   
+}
+
+.btn-questions{
+font-family: Raleway-SemiBold;
+font-size: 13px;
+color: #000000;
+letter-spacing: 1px;
+line-height: 15px;
+border: 3px solid #ffffff;
+border-radius: 40px;
+background: #ffffff;
+transition: all 0.3s ease 0s;
+}
+
+.btn-questions:hover {
+  color: #ffffff;
+  background: #cbe2e0;
+  border: 3px solid #cbe2e0;
+}
 
 
-@media only screen and (max-width: 600px) { /*mobile device break*/
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/*Media Queries- Index.html */
+
+@media only screen and (max-width: 600px) { /*mobile device*/
+
+.Flipsideheaderh1 {
+font-family: niveau-grotesk, sans-serif;
+font-size: 6.1em;
+font-weight: 800;
+line-height: 75%;
+margin-top: 140px;
+text-align: center;
+padding-bottom: 10%;
+}
     
- .explorebg {
+.btn-default {
+font-family: Raleway-SemiBold;
+font-size: 10px;
+color: #000000;
+letter-spacing: 1px;
+line-height: 15px;
+border: 3px solid #cbe2e0;
+border-radius: 40px;
+background: transparent;
+transition: all 0.3s ease 0s;
+margin-bottom: 2%;
+margin-left: 35%;
+}
+
+.headerbg {
+background: #e5f0ef;
+margin-top: 5%;
+}
+    
+.testimoniescontainer {
+margin-bottom: 5%;
+margin-top: -2%;
+}
+    
+.testimoniesgraphic {
+    padding-top: 10%;
+    height: 250px;
+}
+    
+ .testimonyprofilecontainer {
+    margin-top: 5%;
+}   
+
+.image-stack {
+display: grid !important;
+grid-template-columns: none !important;
+}
+    
+.image-stack__item--topright {
+    grid-row: none !important;
+    grid-column: none!important;
+    padding-top: 5%;
+    padding-left: 25%;
+    width: 400px;
+}
+    
+.image-stack__item--bottom {
+    grid-column: none;
+    grid-row: 1;
+    /* margin-bottom: 200%; */
+    /* height: 400px; */
+    width: 350px;
+    margin-left: 17%;
+    margin-top: -10%;
+}
+    
+.image-stack__item--top {
+    grid-row: 1;
+    grid-column: 1 / span 8;
+    padding-top: 90%;
+    padding-left: 20%;
+    z-index: 1;
+}
+    
+.exploretoursh2 {
+    font-family: niveau-grotesk, sans-serif;
+    font-size: 2.1em;
+    font-weight: 800;
+    padding-bottom: 2%;
+    margin-top: -20%;
+    padding-left: 25%;
+}
+    
+.distinctivetoursh2 {
+    font-family: niveau-grotesk, sans-serif;
+    font-size: 2.1em;
+    font-weight: 800;
+    margin-top: -3%;
+    margin-left: 35%;
+    margin-bottom: 3%;
+}
+    
+.explorebg {
     background: url(images/explorebg.png) no-repeat center;
-        }
+    background-size: cover;
+}
+
+.btn-explore {
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+    color: #000000;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 3px solid #e5f0ef;
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+    
+.btn-explore:hover {
+ color: #ffffff;
+  background: #cbe2e0;
+  border: 3px solid #cbe2e0;
+}
      
 body{
 font-size:12px;
@@ -713,4 +994,30 @@ font-weight: 100;
 .btn-fallinlovewithourcity {
     margin-left: 32%;
     }
+
+footer {
+    background: no-repeat;
+    background: url(images/footer-bg.jpg) center no-repeat;
+    background-size: cover;
+    height: 386px; 
+}
+.copyright {
+text-align: left;
+color: #000000;
+margin-top: 15%;
+font-size: 10px;
+    }
+    
+.tanctext {
+    text-align: right;
+    color: #000000;
+    margin-top: -12%;
+    font-size: 10px;
+    }
+.logo {
+margin-top: -12%;
+    }
+.navfooter{
+text-align:right;
+}
 }
