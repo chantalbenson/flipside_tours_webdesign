@@ -227,7 +227,7 @@ font-family: niveau-grotesk, sans-serif;
 font-size: 6.1em;
 font-weight:800;
 line-height: 75%;
-margin-top: 140px;
+margin-top: 30%;
 text-align: right;
 padding-bottom:10%;
 }
@@ -386,6 +386,18 @@ margin-top: 4%;
 margin-top: 3%;
 }
 
+.navfooter{
+padding-left:85%;
+}
+
+.rubyimage{
+margin:auto;
+}
+
+.rubyrow{
+padding-top:5%
+}
+
  /*About Us.html */
 
 .aboutusheaderh1 {
@@ -532,7 +544,6 @@ font-family: niveau-grotesk, sans-serif;
 font-size: 2.1em;
 font-weight: 800;
 margin-bottom: 5%;
-padding-top:-5%;
 }
 
 .morethanafamilypadding{
@@ -637,7 +648,7 @@ font-family: niveau-grotesk, sans-serif;
 font-size: 2em;
 font-weight: 800;
 margin-bottom: 5%;
-padding-top:-5%;
+margin-top:5%;
 color:#405f4e;
 }
 
@@ -695,7 +706,7 @@ font-family: niveau-grotesk, sans-serif;
 font-size: 4.1em;
 font-weight: 800;
 line-height: 95%;
-margin-top: 140px;
+margin-top: 10%;
 text-align: left;
 padding-bottom: 10%;
 margin-right: 10%;}
@@ -707,7 +718,7 @@ padding-top:5%;
 font-family: niveau-grotesk, sans-serif;
 font-size:2.1em;
 font-weight:800;
-padding-bottom:20px;
+padding-bottom:2%;
 color: #fdb486;
 }
 
@@ -715,7 +726,6 @@ color: #fdb486;
 font-family: niveau-grotesk, sans-serif;
 font-size:2.1em;
 font-weight:800;
-padding-bottom:20px;
 color: #000000; 
 margin-top:-3%;
 }
@@ -843,23 +853,13 @@ transition: all 0.3s ease 0s;
 
 input[type=text], select, textarea {
   width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
+  padding: 1%; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
   border-radius: 4px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
+  margin-top: 2%; /* Add a top margin */
+  margin-bottom: 2%; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
 }
 
 
@@ -872,7 +872,7 @@ font-family: niveau-grotesk, sans-serif;
 font-size: 6.1em;
 font-weight: 800;
 line-height: 75%;
-margin-top: 140px;
+margin-top: 30%;
 text-align: center;
 padding-bottom: 10%;
 }
@@ -994,13 +994,42 @@ font-weight: 100;
 .btn-fallinlovewithourcity {
     margin-left: 32%;
     }
-
-footer {
-    background: no-repeat;
-    background: url(images/footer-bg.jpg) center no-repeat;
-    background-size: cover;
-    height: 386px; 
+    
+.janeimage{
+margin: auto;
+width: 200px;
 }
+    
+.rubyimage{
+margin: auto;
+width: 200px;
+}
+    
+.aboutusjane {
+    padding-bottom: 2%;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #385848;
+    text-align: center;
+    padding-top: 5%;
+}
+    
+.aboutusruby {
+    padding-bottom: 2%;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #385848;
+    text-align: center;
+     padding-top: 5%;
+}
+   
+footer {
+background: no-repeat;
+background: url(images/footer-bg.jpg) center no-repeat;
+background-size: cover;
+height: 406px;
+}
+    
 .copyright {
 text-align: left;
 color: #000000;
@@ -1014,10 +1043,242 @@ font-size: 10px;
     margin-top: -12%;
     font-size: 10px;
     }
+    
 .logo {
 margin-top: -12%;
-    }
+}
+    
 .navfooter{
 text-align:right;
 }
+    
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+    text-align: right;
+    margin-bottom: -15%;
+    }
+}
+
+ @media only screen and (max-width: 768px) { /*tablet device*/
+
+.headerbg {
+background: #e5f0ef;
+margin-top: 5%;
+}
+
+.Flipsideheaderh1 {
+font-size: 5.8em;
+font-weight: 800;
+line-height: 75%;
+margin-top: 30%;
+text-align: center;
+padding-bottom: 10%;
+}
+    
+.btn-default {
+font-family: Raleway-SemiBold;
+font-size: 10px;
+color: #000000;
+letter-spacing: 1px;
+line-height: 15px;
+border: 3px solid #cbe2e0;
+border-radius: 40px;
+background: transparent;
+transition: all 0.3s ease 0s;
+margin-bottom: 2%;
+margin-left: 35%;
+}
+    
+.testimoniescontainer {
+margin-top: 3%;
+}
+    
+.testimoniesgraphic {
+    padding-top: 10%;
+}
+    
+ .testimonyprofilecontainer {
+    margin-top: 5%;
+}   
+
+.image-stack {
+display: grid !important;
+grid-template-columns: none !important;
+}
+    
+.image-stack__item--topright {
+    grid-row: none !important;
+    grid-column: none!important;
+    padding-top: 5%;
+    margin-left: -27%;
+    padding-bottom: 4%;
+    width: 600px !important;
+}
+    
+.image-stack__item--bottom {
+    grid-column: none;
+    grid-row: 1;
+    width: 350px;
+    margin-left: 24%;
+    margin-top: -10%;
+}
+    
+.image-stack__item--top {
+    grid-row: 1;
+    grid-column: 1 / span 8;
+    padding-left: 25%;
+    z-index: 1;
+}
+    
+.exploretoursh2 {
+    font-family: niveau-grotesk, sans-serif;
+    font-size: 2.1em;
+    font-weight: 800;
+    padding-bottom: 2%;
+    margin-top: -20%;
+    padding-left: 25%;
+}
+    
+.distinctivetoursh2 {
+    font-family: niveau-grotesk, sans-serif;
+    font-size: 2.1em;
+    font-weight: 800;
+    margin-top: -3%;
+    margin-left: 35%;
+    margin-bottom: 3%;
+}
+    
+.explorebg {
+    background: url(images/explorebg.png) no-repeat center;
+    background-size: cover;
+}
+
+.btn-explore {
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+    color: #000000;
+    letter-spacing: 1px;
+    line-height: 15px;
+    border: 3px solid #e5f0ef;
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+    margin-top: 5%;
+}
+    
+.btn-explore:hover {
+ color: #ffffff;
+  background: #cbe2e0;
+  border: 3px solid #cbe2e0;
+}
+     
+body{
+font-size:16px;
+font-family: proxima-nova, sans-serif;
+font-style: normal;
+font-weight: 100;
+}
+
+.missionsandgoals {
+    margin: auto;
+    padding-top: 5%;
+}
+     
+.btn-fallinlovewithourcity {
+margin-left: 37%;
+     }
+    
+.janeimage{
+margin: auto;
+width: 200px;
+}
+    
+.rubyimage{
+margin: auto;
+width: 200px;
+}
+    
+.aboutusjane {
+font-size: 1.5em;
+font-weight: 800;
+color: #385848;
+text-align: center;
+padding-top: 5%;
+padding-right: 5%;
+padding-bottom: 2%;
+}
+    
+.aboutusruby {
+padding-bottom: 2%;
+font-size: 1.5em;
+font-weight: 800;
+color: #385848;
+text-align: center;
+padding-top: 5%;
+padding-right: 5%;
+}
+     
+.rubyparagraph{
+padding-right: 7%;
+text-align: center;      
+}
+     
+.janeparagraph{
+padding-right: 7%;
+text-align: center;      
+}
+     
+footer {
+background: no-repeat;
+background: url(images/footer-bg.jpg) center no-repeat;
+background-size: cover;
+height: 420px;
+}
+    
+.copyright {
+text-align: left;
+color: #000000;
+font-size: 12px;
+    }
+    
+.tanctext {
+    text-align: right;
+    color: #000000;
+    margin-top: -10%;
+    font-size: 12px;
+    }
+    
+.logo {
+margin-top: -9%;
+     }
+    
+.navfooter {
+    padding-top: 7%;
+    padding-left: 80%;
+}
+    
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: transparent;
+    text-align: right;
+    margin-bottom: -15%;
+    }
+     
+.container { 
+
+     }
+}
+@media only screen and (max-width: 1200px) {
+    
+.rubyrow{
+padding-bottom:2%;
+    }
+    .janeimage{
+        margin:auto;
+    }
+.rubyparagraph{
+padding-left: 5%;
+    }
+.janeparagraph{
+padding-left: 8%;
+    }
 }
