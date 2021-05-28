@@ -1,7 +1,7 @@
 <footer class="container-fluid">  <!--- container fluid footer -->
     
     <div class="container footer-content">
-<p> <?php bloginfo('name'); ?></p>
+        
     <h4 class= "text-center letsbefriendsh4"> Let's Be Friends!</h4> 
         
         <div class="row socialmediafooter">
