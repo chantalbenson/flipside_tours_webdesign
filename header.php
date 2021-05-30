@@ -57,15 +57,15 @@
         </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active">
-        <li><a href="index.html">Home</a></li>
-         <li><a href="aboutus.html">About Us</a></li>
-        <li><a href="services.html">Tours</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Bookings</a></li>
-        <li><a href="aboutus.html">Get In Touch!</a></li>
-      </ul>
+                <ul class="nav navbar-nav navbar-right">
+<?php wp_nav_menu(array(
+        'menu' => 'Top menu',
+        'items_wrap'=>'%3$s',
+        'container' => false,
+        'list_item_class' => "nav-item",
+        'link_class' => "nav-link",
+        )); ?>
+</ul>
     </div>
   </div>
     </nav>
