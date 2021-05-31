@@ -6,13 +6,15 @@
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
 <section class="container-fluid"> <!-- container-fluid -->
 
-<div class="container testimoniescontainer"><!-- authenticconnections container -->    
+<div class="container testimoniescontainer"><!-- authenticconnections container -->
+<h2 class="authenticconnectionsh2"><?php the_field('titlefortestimonies'); ?></h2>
+<h2 class="genuinerelationshipsh2"><?php the_field('subtitlefortestimonies'); ?></h2>
     <div class="col-md-6">
- <h2 class="authenticconnectionsh2"><?php the_field('Titlefortestimonies'); ?></h2>
    </div> 
     
-    <div class="col-md-6 testimonyprofilecontainer ">
-    
+    <div class="col-md-6 testimonyprofilecontainer">
+<p class="testimony"><?php the_field('testimoniesprofile'); ?></p>
+<p class="text-center"><?php the_field('paragraphfortestimonies'); ?></p>
     </div> 
     
     </div> <!--- authenticconnections container -->
