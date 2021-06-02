@@ -108,10 +108,77 @@ wp_reset_query();?>
 <p class="text-center joshquote"> I'm super excited to be working at Flipside <br> and can't wait to meet you guys! </p>
 <p class="text-center"> <strong> Josh Payne , New Guide </strong></p>   
     </div> 
-    
- 
     </div> <!---exploretours container -->
-
-
     </section> <!--- container fluid -->
+
+<section class="container-fluid morethanafamilypadding"><!--- container fluid not your standard tour-->
+ 
+<div class="col-md-6">
+
+    <h3 class="beapartofthefamilyh3"><?php the_field('titleforbeapartofthefamily'); ?></h3>
+        <h3 class="beapartofthefamilybreakh3"><?php the_field('subtitleforbeapartofthefamily'); ?></h3>
+    
+    <div class="image-stack__item image-stack__item--topfamily">
+      <img class="img-responsive" alt=“ArtworkFremantle” src="<?php the_field('beapartofthefamily01'); ?>">
+    </div>
+    <div class="image-stack__item image-stack__item--bottomfamily">
+     <img class="img-responsive" alt=“FremantleCafeStrip” src="<?php the_field('beapartofthefamily02'); ?>">
+    </div>
+</div>
+    
+<div class="col-md-6 serviceinfo">
+<p> <strong><?php the_field('serviceinfohook'); ?></strong>,<?php the_field('serviceinfoparagraph'); ?></p>
+    
+<p><?php the_field('serviceinfoparagraph02'); ?></p>
+    
+ <div class="row joinformleftalign">
+<?php echo do_shortcode("[wpforms id=1198]"); ?>
+     
+<!--	<div class="input-group">
+         <input type="email" class="form-control" placeholder="Please enter your email">
+         <span class="input-group-btn">
+         <button class="btn btn-join" type="submit">Join!</button>
+         </span>
+          </div>  
+             <p class="recieveupdates">*Receive updates on new tours and weekly newsletters </p>
+
+            </div>
+    -->
+    </div>
+<h4 class="morethanaserviceh4"><?php the_field('serviceinfotagline'); ?></h4>
+
+</div>
+</section>
+
+<section class="container-fluid getintouchbg"><!--- container fluid get in touch -->
+
+<div class="container"> <!---container -->
+
+<h3 class="text-center contacth3"><?php the_field('titleforgetintouch'); ?></h3>
+<p class="text-center janebreecontact"><?php the_field('subtitleforgetintouch'); ?></p>
+
+<div class="row"> 
+
+<div class="col-md-6 contactuscontainer1">
+<img class="img-responsive phoneicon" alt=“telephone” src="<?php the_field('contactphoneicon'); ?>"> 
+<p class="text-left phonetext"><?php the_field('contactphonenumber'); ?></p>
+    
+<img class="img-responsive officeicon" alt=“office” src="<?php the_field('contactofficeicon'); ?>"> 
+<p class="text-left officetext"><?php the_field('contactofficeaddress'); ?></p>
+
+</div>
+
+<div class="col-md-6 contactuscontainer2">
+<img class="img-responsive emailicon" alt=“email” src="<?php the_field('contactemailicon'); ?>"> 
+<p class="text-right emailtext"><?php the_field('contactemailaddress'); ?></p>
+      
+<img class="img-responsive posticon" alt=“Post” src="<?php the_field('contactposticon'); ?>"> 
+<p class="text-right posttext"><?php the_field('contactpostaddress'); ?></p>
+    </div> 
+    
+</div> <!---row -->
+    </div> <!---container -->
+
+
+    </section> <!--- container fluid get in touch -->
 <?php get_footer(); ?>
