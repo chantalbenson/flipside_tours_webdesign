@@ -223,6 +223,10 @@ margin-left: 2%;
 padding-top:2%;
 }
 
+.goalstextpadding2 {
+margin-left: 2%; 
+}
+
 .missionsandgoals{
 margin:auto;
 padding-top:10%;
@@ -331,6 +335,14 @@ font-weight:800;
 color:#385848;
 }
 
+.aboutusrubysubtitle {
+    padding-bottom: 2%;
+    font-size: 1.2em;
+    font-weight: 800;
+    color: #385848;
+    margin-top: -1%;
+}
+
 footer{
     background: url(images/footer-bg.jpg) center center;
     background-size: cover;
@@ -405,7 +417,8 @@ margin:auto;
 }
 
 .rubyrow{
-padding-top:5%
+padding-top:5%;
+padding-bottom: 5%;
 }
 
  /*About Us.html */
@@ -811,7 +824,7 @@ z-index: 1;
 
 .ghostgraphic{
 margin-left: -20%;
-margin-top: -2%;
+margin-top: 70%;
 margin-bottom: -20%;
 }
 
@@ -1065,7 +1078,16 @@ width: 200px;
     text-align: center;
      padding-top: 5%;
 }
+
+.aboutusrubyhook {
+    padding-bottom: 2%;
+    font-size: 1.5em;
+    font-weight: 800;
+    color: #385848;
+    text-align: center;
+}
    
+    
 footer {
 background: no-repeat;
 background: url(images/footer-bg.jpg) center no-repeat;
