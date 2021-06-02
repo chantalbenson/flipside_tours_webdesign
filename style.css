@@ -510,6 +510,12 @@ margin-top:-8%;
     
 }
 
+.wpforms-field-description {
+    padding-top: 5%;
+    font-size: 14px;
+    padding-bottom: 3%;
+}
+
 .colpaddingchats{
 padding-top:10%;
 }
