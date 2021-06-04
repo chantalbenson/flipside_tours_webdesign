@@ -3,7 +3,7 @@
 Template Name: Services
 */
 ?>
-<?php get_header(); /* Tells WordPress to include header.php */ ?>
+<?php include (TEMPLATEPATH . '/small_header.php');  /* Tells WordPress to include the smaller header header.php */ ?> 
 
 <section class="container-fluid"><!--- container fluid evening expereince tour-->
 
@@ -12,7 +12,10 @@ Template Name: Services
     
 <h2 class="eveningexperiencetourh2 text-left"><?php the_field('titleforeveningtours'); ?></h2>
 <p> <strong><?php the_field('paragraphforeveningtoursheading'); ?></strong></p>
-<p><?php the_field('paragraphforeveningtours'); ?></p>
+<p><?php the_field('paragraphforeveningtours01'); ?></p>
+<p><?php the_field('paragraphforeveningtours02'); ?></p>
+<p><?php the_field('paragraphforeveningtours03'); ?></p>
+<p> <strong><?php the_field('pricingforeveningtours'); ?></strong></p>
  <button type="button" class="btn btn-default">Book Evening Tour Now! </button>
       </div>
     
@@ -47,6 +50,18 @@ Template Name: Services
 </div>
 <div class="col-md-6 text-left ghosttourdetail">
 <p><?php the_field('paragraphforghostlytours'); ?></p>
+<p><?php the_field('paragraphforghostlytours02'); ?></p>
+            
+<p> <strong><?php the_field('paragraphforghostlytours03Bold'); ?></strong><?php the_field('paragraphforghostlytours03'); ?></p>
+
+<p> <strong><?php the_field('paragraphforghostlytours04Bold'); ?></strong><?php the_field('paragraphforghostlytours04'); ?></p>
+
+<p><?php the_field('paragraphforghostlytours05'); ?></p>
+
+<p><strong><?php the_field('paragraphforghostlytours06Bold'); ?></strong> <?php the_field('paragraphforghostlytours06'); ?></p>
+
+<p> <strong><?php the_field('pricingforghostlytours'); ?></strong></p>
+    
 <button type="button" class="btn btn-ghost">Book Ghostly Tour Now! </button>
 
 <img class="img-responsive ghostgraphic" alt=“Graphic” src="http://206.189.45.97/~mesh4/wp-content/themes/flipside_tours_webdesign/images/realghostgraphic.png" width="200">
