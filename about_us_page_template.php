@@ -3,7 +3,7 @@
 Template Name: About Us
 */
 ?>
-<?php get_header(); /* Tells WordPress to include header.php */ ?>
+<?php include (TEMPLATEPATH . '/small_header2.php');  /* Tells WordPress to include the smaller header header.php */ ?> 
 <section class="container-fluid notyourstandardtourbg"><!--- container fluid not your standard tour-->
 
 <div class="container"><!--- container -->
