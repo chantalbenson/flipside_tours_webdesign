@@ -51,6 +51,12 @@ color: #cbe2e0 !important;
 background:#e5f0ef;
 }
 
+.small_herobg{
+background: url("images/timetogetwalkingheader_bg.jpg")no-repeat center center;
+height: 40vh; 
+background-size: cover;
+}
+
 
 .btn{
 margin-top:2%;
@@ -458,6 +464,7 @@ padding-bottom: 2%;
 .notyourstandardtourimage{
 margin:auto;
 margin-bottom: -5%;
+padding-top: 18%;
 }
 
 .speechmarksjane1{
@@ -830,7 +837,6 @@ z-index: 1;
 
 .ghostgraphic{
 margin-left: -20%;
-margin-top: 70%;
 margin-bottom: -20%;
 }
 
