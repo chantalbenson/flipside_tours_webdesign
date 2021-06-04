@@ -23,11 +23,11 @@ endif;
 wp_reset_query();?> 
     </div>        
 <div class="col-md-6 text-center notyourstandardtourjanecontainer">        
-<img class="img-responsive notyourstandardtourimage" alt=“JaneBree” src="images/janebreeaboutus.png" width="250"> 
-<p>Together we can bridge the gap <br> between tourists and Fremantle </p>
-<p> <strong> Jane Bree , Founder + Guide</strong></p>
-<img class="img-responsive speechmarksjane1" alt=“Speechmarks” src="images/speechmarks_JoshPayne_01.png" width="80">
-<img class="img-responsive speechmarksjane2" alt=“Speechmarks” src="images/speechmarks_JoshPayne_02.png" width="80">
+<img class="img-responsive notyourstandardtourimage" alt=“JaneBree” src="<?php the_field('notyourstandardtourimage'); ?>"> 
+<p><?php the_field('quoteforjanebree'); ?></p>
+<p> <strong><?php the_field('headingquoteforjanebree'); ?></strong></p>
+<img class="img-responsive speechmarksjane1" alt=“Speechmarks” src="http://206.189.45.97/~mesh4/wp-content/themes/flipside_tours_webdesign/images/speechmarks_JoshPayne_01.png" width="80">
+<img class="img-responsive speechmarksjane2" alt=“Speechmarks” src="http://206.189.45.97/~mesh4/wp-content/themes/flipside_tours_webdesign/images/speechmarks_JoshPayne_02.png" width="80">
         </div> 
         
      </div> <!--- container -->
@@ -60,14 +60,14 @@ wp_reset_query();?>
         
 <div class="col-md-6 colpadding image-stack">
     <div class="image-stack__item image-stack__item--topchats">
-      <img class="img-responsive" alt=“ArtworkFremantle” src="images/communitychats_02.png" width="300">
+      <img class="img-responsive" alt=“ArtworkFremantle” src="<?php the_field('communitychatsimage01'); ?>">
     </div>
     <div class="image-stack__item image-stack__item--bottomchats">
-     <img class="img-responsive" alt=“FremantleCafeStrip” src="images/communitychats_01.png" width="500">
+     <img class="img-responsive" alt=“FremantleCafeStrip” src="<?php the_field('communitychatsimage02'); ?>">
     </div>
     
 <div class="image-stack__item--graphic">
-      <img class="img-responsive" alt=“FremantleTunnel” src="images/customercaregraphic.png" width="250">
+      <img class="img-responsive" alt=“CustomerCareGraphic” src="http://206.189.45.97/~mesh4/wp-content/themes/flipside_tours_webdesign/images/customercaregraphic.png" width="250">
     </div>
     
         </div>
@@ -101,12 +101,12 @@ wp_reset_query();?>
 
     <div class="col-md-6">
     
-<img class="img-responsive joshimage" alt=“JoshPayne” src="images/joshpayne.png" width="200">
-<img class="img-responsive speechmarksjosh1" alt=“Speechmarks” src="images/speechmarks_JoshPayne_01.png" width="100">
-<img class="img-responsive speechmarksjosh2" alt=“Speechmarks” src="images/speechmarks_JoshPayne_02.png" width="100">
+<img class="img-responsive joshimage" alt=“JoshPayne” src="<?php the_field('newestmemberimage'); ?>">
+<img class="img-responsive speechmarksjosh1" alt=“Speechmarks” src="http://206.189.45.97/~mesh4/wp-content/themes/flipside_tours_webdesign/images/speechmarks_JoshPayne_01.png" width="100">
+<img class="img-responsive speechmarksjosh2" alt=“Speechmarks” src="http://206.189.45.97/~mesh4/wp-content/themes/flipside_tours_webdesign/images/speechmarks_JoshPayne_02.png" width="100">
 
-<p class="text-center joshquote"> I'm super excited to be working at Flipside <br> and can't wait to meet you guys! </p>
-<p class="text-center"> <strong> Josh Payne , New Guide </strong></p>   
+<p class="text-center joshquote"><?php the_field('quoteforjoshpayne'); ?></p>
+<p class="text-center"> <strong><?php the_field('headingquoteforjoshpayne'); ?></strong></p>   
     </div> 
     </div> <!---exploretours container -->
     </section> <!--- container fluid -->
@@ -127,7 +127,7 @@ wp_reset_query();?>
 </div>
     
 <div class="col-md-6 serviceinfo">
-<p> <strong><?php the_field('serviceinfohook'); ?></strong>,<?php the_field('serviceinfoparagraph'); ?></p>
+<p> <strong><?php the_field('serviceinfohook'); ?></strong>,<?php the_field('serviceinfoparagraph01'); ?></p>
     
 <p><?php the_field('serviceinfoparagraph02'); ?></p>
     
