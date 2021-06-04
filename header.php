@@ -72,13 +72,13 @@
    
 <section class="container-fluid">
 <div class="col-md-6">
- <h1 class="Flipsideheaderh1"> Flipside Tours</h1>
-<p> Ready for unforgettable experiences <br> that last a lifetime...</p>
-<p> Start your journey in the heart of Fremantle!</p>
+ <h1 class="Flipsideheaderh1"><?php the_field('titleforflipside'); ?></h1>
+<p><?php the_field('maintagline'); ?></p>
+<p><?php the_field('subtagline'); ?></p>
     <a href="services.html" class="btn btn-default" >Book A Tour Now! </a>
     </div>  
 
-    <div class="col-md-6 headerbg">
+    <div class="col-md-6 headerbg"<?php if ( get_field(' headerbackgroundimage ') ) { echo 'style="background: url(' . get_field(' headerbackgroundimage ') . ')"'; } ?>>
     <img class="img-responsive" alt=“FremantleImagery” src="http://206.189.45.97/~mesh4/wp-content/themes/flipside_tours_webdesign/images/header-bg.jpg">    
       <p class="text-right befriendstext"><strong> Let's Be Friends! </strong>
      <img src="http://206.189.45.97/~mesh4/wp-content/themes/flipside_tours_webdesign/images/instagramlogo.png"  width="35" alt=“Instagram”>
